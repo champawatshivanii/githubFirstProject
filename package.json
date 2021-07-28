@@ -1,5 +1,5 @@
 {
-  "name": "loginIn",
+  "name": "loginin",
   "version": "1.0.0",
   "description": "demo of register and login with database connectivity",
   "main": "server.js",
