@@ -1,6 +1,7 @@
 let mongoose = require('mongoose');
+//put your database string  in line 4 to connect to database
 let connectDB = async () => {
-    let conn = await mongoose.connect('mongodb+srv://node_db:Node@cluster0.osfoa.mongodb.net/testing', {
+    let conn = await mongoose.connect('mongodb+srv://node_db:Node1@cluster1.osfoa.mongodb.net/testing', {
         useNewUrlParser: true,
         useCreateIndex: true,
         useFindAndModify: false,
